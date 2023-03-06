@@ -2,7 +2,7 @@
 // Stephen Marz
 // 21 Sep 2019
 #![no_std]
-#![feature(panic_info_message,asm)]
+#![feature(panic_info_message)]
 
 // ///////////////////////////////////
 // / RUST MACROS
@@ -54,7 +54,7 @@ extern "C"
 fn abort() -> ! {
 	loop {
 		unsafe {
-			asm!("wfi"::::"volatile");
+			core::arch::asm!("wfi");
 		}
 	}
 }
