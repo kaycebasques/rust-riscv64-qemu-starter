@@ -49,7 +49,7 @@ qemu-system-riscv64 -machine virt -cpu rv64 -smp 4 -m 128M  -nographic
     -device virtio-blk-device,scsi=off,drive=foo
 ```
 
-Try pressing <kbd>Ctrl</kbd>+<kbd>A</kbd> and then press <kbd>A</kbd>. If you
+Try pressing <kbd>Ctrl</kbd>+<kbd>A</kbd> and then press <kbd>C</kbd>. If you
 see `(qemu)` before the blinking cursor then you have successfully accessed
 QEMU Monitor.
 
