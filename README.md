@@ -1,4 +1,4 @@
-# riscv64-qemu-ubuntu-starter
+# rust-riscv64-qemu-ubuntu-starter
 
 https://osblog.stephenmarz.com/ch1.html
 
