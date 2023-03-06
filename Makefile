@@ -14,7 +14,7 @@ SOURCES_ASM=$(wildcard src/asm/*.S)
 LIB=-lsos -lgcc
 OUT=os.elf
 
-# Stuff for running the OS on QEMU.
+# Stuff for emulating the OS on QEMU.
 QEMU=qemu-system-riscv64
 MACH=virt
 CPU=rv64
@@ -26,7 +26,7 @@ all:
 	cargo build
 	$(CC) $(CFLAGS) $(LINKER_SCRIPT) $(INCLUDES) -o $(OUT) $(SOURCES_ASM) $(LIBS) $(LIB)
 
-run: all
+qemu: all
 	$(QEMU) -machine $(MACH) -cpu $(CPU) -smp $(CPUS) -m $(MEM)  -nographic -serial mon:stdio -bios none -kernel $(OUT) -drive if=none,format=raw,file=$(DRIVE),id=foo -device virtio-blk-device,scsi=off,drive=foo
 
 

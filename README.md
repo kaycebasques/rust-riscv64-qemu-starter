@@ -5,8 +5,8 @@ QEMU-emulated RISC-V 64-bit computer.
 
 [osblog]: https://osblog.stephenmarz.com/index.html
 
-The OS code is based off [The Adventures of OS: Making a RISC-V Operating
-System using Rust][osblog] by Stephen Marz.
+The OS code is based off chapter 1 in [The Adventures of OS: Making a RISC-V
+Operating System using Rust][osblog] by Stephen Marz.
 
 ## Assumptions
 
