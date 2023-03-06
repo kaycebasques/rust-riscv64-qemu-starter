@@ -4,12 +4,7 @@ mkdir tools
 cd tools
 
 # Install QEMU.
-# sudo apt install qemu-system-misc
-wget https://download.qemu.org/qemu-7.2.0.tar.xz
-tar xvJf qemu-7.2.0.tar.xz
-cd qemu-7.2.0
-./configure --target-list=riscv64-softmmu
-make
+sudo apt install qemu-system-misc
 
 # Download and extract the RISC-V GNU Compiler Toolchain.
 ARCHIVE_DATE="2023.02.25"
