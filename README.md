@@ -7,7 +7,10 @@ RV64 computer with QEMU.
 [osblog]: https://osblog.stephenmarz.com/index.html
 
 The OS code is based off chapter 1 in [The Adventures of OS: Making a RISC-V
-Operating System using Rust][osblog] by Stephen Marz.
+Operating System using Rust][osblog] (`osblog`) by Stephen Marz. I created this
+repo because I was very excited to work through `osblog` but had a difficult
+time setting up my development environment. I hope this repo makes it easier
+for others to follow along with Stephen's amazing work.
 
 ## Assumptions
 
