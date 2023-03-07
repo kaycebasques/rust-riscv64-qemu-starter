@@ -1,10 +1,11 @@
-[package]
-name = "sos"
-version = "0.1.0"
-authors = ["Stephen Marz <stephen.marz@utk.edu>"]
-edition = "2018"
+# Modified from https://github.com/sgmarz/osblog which is copyrighted by
+# Stephen Marz and licensed under MIT.
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "rust-riscv64-qemu-starter"
+version = "0.1.0"
+authors = ["Kayce Basques <kaycebasques@gmail.com>"]
+edition = "2018"
 
 [lib]
 crate-type = ["staticlib"]

@@ -1,4 +1,5 @@
-# TODO mention Stephen Marz
+# Modified from https://github.com/sgmarz/osblog which is copyrighted by
+# Stephen Marz and licensed under MIT.
 
 # Stuff for building the OS.
 CC=./tools/riscv-gnu-toolchain/bin/riscv64-unknown-linux-gnu-g++

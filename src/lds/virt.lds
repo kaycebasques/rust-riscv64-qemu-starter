@@ -1,10 +1,13 @@
-OUTPUT_ARCH( "riscv" )
+# Modified from https://github.com/sgmarz/osblog which is copyrighted by
+# Stephen Marz and licensed under MIT.
 
-ENTRY( _start )
+OUTPUT_ARCH("riscv")
+
+ENTRY(_start)
 
 MEMORY
 {
-  ram   (wxa!ri) : ORIGIN = 0x80000000, LENGTH = 128M
+  ram (wxa!ri) : ORIGIN = 0x80000000, LENGTH = 128M
 }
 
 PHDRS

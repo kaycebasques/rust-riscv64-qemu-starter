@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "sos"
+name = "rust-riscv64-qemu-starter"
 version = "0.1.0"

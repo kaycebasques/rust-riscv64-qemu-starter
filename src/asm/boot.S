@@ -1,3 +1,6 @@
+# Modified from https://github.com/sgmarz/osblog which is copyrighted by
+# Stephen Marz and licensed under MIT.
+
 .option norvc
 
 .section .data
