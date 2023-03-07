@@ -77,3 +77,9 @@ CPU#0
 ```
 
 To exit, press <kbd>Ctrl</kbd>+<kbd>A</kbd> again and then press <kbd>X</kbd>.
+
+## Next steps
+
+Check out chapter 1 in [The Adventures of OS: Making a RISC-V Operating System
+using Rust][osblog] by Stephen Marz for an explanation of this
+code.
