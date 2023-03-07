@@ -12,7 +12,7 @@ TYPE=debug
 RUST_TARGET=./target/riscv64gc-unknown-none-elf/$(TYPE)
 LIBS=-L$(RUST_TARGET)
 SOURCES_ASM=$(wildcard src/asm/*.S)
-LIB=-lrust\-riscv64\-qemu\-starter -lgcc
+LIB=-lrust_riscv64_qemu_starter -lgcc
 OUT=os.elf
 
 # Stuff for emulating the OS on QEMU.
