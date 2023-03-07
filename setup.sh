@@ -1,5 +1,8 @@
 #!/bin/sh
 
+rustup default nightly
+rustup target add riscv64gc-unknown-none-elf
+
 mkdir tools
 cd tools
 
