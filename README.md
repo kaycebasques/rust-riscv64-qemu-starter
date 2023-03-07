@@ -22,6 +22,12 @@ Operating System using Rust][osblog] by Stephen Marz.
 $ source setup.sh
 ```
 
+This script:
+
+* Installs QEMU through `apt`
+* Downloads and extracts the prebuilt RISC-V GNU Compiler Toolchain to `//tools`
+* Creates a disk for QEMU
+
 ## Build the OS
 
 ```
