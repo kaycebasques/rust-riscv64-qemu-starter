@@ -22,3 +22,5 @@ cd ..
 
 # Set up a disk for QEMU.
 dd if=/dev/zero of=qemu.dsk bs=1M count=32
+
+make all
