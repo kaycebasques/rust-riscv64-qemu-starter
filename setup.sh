@@ -3,6 +3,7 @@
 curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y
 rustup default nightly
 rustup target add riscv64gc-unknown-none-elf
+source "$HOME/.cargo/env"
 
 mkdir tools
 cd tools
