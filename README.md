@@ -14,7 +14,6 @@ for others to follow along with Stephen's amazing work.
 
 ## Assumptions
 
-* [rustup](https://rustup.rs) is available
 * `setup.sh` uses `apt` to install QEMU. In other words, your development
   host is assumed to be Debian-based.
 * `setup.sh` downloads the prebuilt GNU Compiler Toolchain that is intended
